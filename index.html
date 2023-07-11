@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo-IMC</title>
+  <title>Calculadora de Peso Ideal</title>
 </head>
 <body>
-    <h2>Calculadora de IMC</h2>
-        <label for="peso">Digite seu Peso(kg):</label>
-        <input type="text" id="peso"><br>
-        <label for="altura">Digite sua Altura(m):</label>
-        <input type="text" id="altura"><br>
-        <label for="sexo">Sexo:</label>
-        <select id="sexo">
-           <option value="f">Feminimo</option>
-           <option value="m">Masculino</option> 
-        </select><br>
-        <button onclick="calculoIMC()">Calcular</button>
-        <p id="resultado"></p>
-      <script src="assets/script.js"></script>
+  <h1>Calculadora de Peso Ideal</h1>
+  <label for="peso">Peso (kg):</label>
+  <input type="text" id="peso"><br>
+  <label for="altura">Altura (m):</label>
+  <input type="text" id="altura"><br>
+  <label for="sexo">Sexo:</label>
+  <select id="sexo">
+    <option value="f">Feminino</option>
+    <option value="m">Masculino</option>
+  </select><br>
+  <button onclick="calcularPesoIdeal()">Calcular</button>
+  <p id="resultado"></p>
+  <script src="assets/script.js"></script>
 </body>
 </html>
