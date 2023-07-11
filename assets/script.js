@@ -1,4 +1,4 @@
-function calcularPesoIdeal() {
+function calcularIMC() {
     var peso = parseFloat(document.getElementById("peso").value);
     var altura = parseFloat(document.getElementById("altura").value);
     var sexo = document.getElementById("sexo").value;
@@ -9,7 +9,7 @@ function calcularPesoIdeal() {
       return;
     }
 
-    var pesoIdeal;
+    var imc;
     if (sexo === "f") {
       pesoIdeal = 62.1 * altura - 44.7;
     } else if (sexo === "m") {
